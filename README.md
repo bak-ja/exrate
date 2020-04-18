@@ -6,4 +6,18 @@
     <br>
 </p>
 
+<h2>Information</h2>
+
+<p>Консольная команда для загрузки курсов валют - "php yii currency/download"</p>
+
+<p>Команда для планировщика: в файл заданий crontab записываем(crontab -e) команду  "0 0 * * * php /var/www/project/yii currency/download"</p>
+
+<p>Методы:
+    <br>/currencies - список волют на текущую дату
+    <br>/currencies?name=usd - курс для переданного кода волюты на текущую дату
+    <br>/currencies?date=2020-04-16 - курс для переданной даты
+    <br>/currencies?page=2 - для пагинации
+</p>
+
+<p>Токен: Bearer qwerty</p>
 
