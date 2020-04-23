@@ -13,7 +13,7 @@
 <p>Команда для планировщика: в файл заданий crontab записываем(crontab -e) команду  "0 0 * * * php /var/www/project/yii currency/download"</p>
 
 <p>Методы:
-    <br>/currencies - список волют на текущую дату
+    <br>/currencies - список валют на текущую дату
     <br>/currencies?name=usd - курс для переданного кода валюты на текущую дату
     <br>/currencies?date=2020-04-16 - курс для переданной даты
     <br>/currencies?page=2 - для пагинации
